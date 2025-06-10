@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notun Protidin - নতুন প্রতিদিন | Billal Hossain</title>
+ 
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Notun Protidin - নতুন প্রতিদিন | সত্যের সন্ধানে সবসময়" />
+    <meta property="og:description" content="সর্বশেষ খবরের জন্য আপনার বিশ্বস্ত ওয়েবসাইট " />  
+    <meta property="og:image" content="https://www.notunprotidin.xyz/wp-content/uploads/2024/09/909158ef-78f9-42f2-bdc2-87ef004fddb2.png" /> 
+    <meta property="og:image:width" content="700" />  
+    <meta property="og:image:height" content="400" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:pages" content="351492191390593" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Notun Protidin - নতুন প্রতিদিন | সত্যের সন্ধানে সবসময়" />
+    <meta name="twitter:description" content="This is twitter og Description" />
+    <meta name="twitter:image" content="https://www.notunprotidin.xyz/wp-content/themes/NewsFlash-Pro/assets/images/lazy.jpg" />
+    <meta name="twitter:creator" content="@itpolly">
+    <meta name="twitter:site" content="@itpolly">
+
+    <!-- Meta Tags for SEO -->
+    <meta name="keywords" content="Notun Protidin, New EveryDay, নতুন প্রতিদিন, প্রতিদিন নতুন " />
+    <meta name="description" content="বাংলাদেশসহ বিশ্বের সর্বশেষ সংবাদ শিরোনাম, প্রতিবেদন, বিশ্লেষণ, খেলা, বিনোদন, লাইফস্টাইল, রাজনীতি ও বাণিজ্যের বাংলা নিউজ পড়তে ভিজিট করুন" />
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Variables */
+        :root {
+            --primary-color: #ff6f61;
+            --secondary-color: #1a1a1a;
+            --background-color: #f7f7f7;
+            --white-color: #ffffff;
+            --light-gray: #f0f0f0;
+            --text-dark: #333333;
+            --text-light: #999999;
+            --font-family: 'Poppins', sans-serif;
+            --transition-speed: 0.3s;
+        }
+
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--primary-color);
+            padding: 50px 0;
+            text-align: center;
+            color: var(--white-color);
+        }
+
+        header img {
+            width: 200px;
+            margin-bottom: 15px;
+            display: inline-block;
+            transition: transform var(--transition-speed);
+        }
+
+        header img:hover {
+            transform: scale(1.1);
+        }
+
+        header h1 {
+            font-size: 40px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+
+/* Button Styles */
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: none; /* Remove uppercase transformation */
+    display: inline-flex; /* Use inline-flex for flexible layout */
+    align-items: center; /* Align items vertically */
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color var(--transition-speed), transform var(--transition-speed), box-shadow var(--transition-speed);
+    margin: 20px 0;
+    background-image: url('https://billalhossain1282.github.io/img/NotunProtidinLogo.webp');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center; /* Align the logo to the left center */
+    padding-left: 50px; /* Adjust padding for logo */
+    padding-right: 40px; /* Space for the right */
+    gap: 10px; /* Space between the logo and text */
+    margin-left: 5px; /* Small margin on the left */
+    justify-content: center; /* Align content centrally */
+}
+
+/* Adjust logo position */
+.btn span {
+    display: inline-block;
+    margin-left: 10px; /* Space between the logo and the text */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .btn {
+        padding-left: 45px; /* Adjust padding for smaller screens */
+        padding-right: 35px; /* Adjust padding for smaller screens */
+        background-size: 25px; /* Adjust logo size */
+        gap: 8px; /* Slightly reduce gap on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding-left: 40px; /* Adjust padding for mobile */
+        padding-right: 30px; /* Adjust padding for mobile */
+        background-size: 20px; /* Adjust logo size further */
+        gap: 5px; /* Reduce gap on smaller screens */
+    }
+}
+
+
+
+
+
+
+        .btn:hover {
+            background-color: #df3728;
+            color: rgb(24, 18, 18);
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        /* Center the Button */
+        .visit-btn-wrapper {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        /* Content Section */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .content-section {
+            background-color: var(--white-color);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            transition: transform var(--transition-speed);
+        }
+
+        .content-section:hover {
+            transform: translateY(-5px);
+        }
+
+        .content-section h2 {
+            font-size: 32px;
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .content-section p {
+            font-size: 18px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+
+        .content-section a {
+            font-size: 16px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color var(--transition-speed);
+        }
+
+        .content-section a:hover {
+            color: #e65c50;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary-color);
+            color: var(--white-color);
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            color: #e65c50;
+        }
+
+        /* Container to center the image */
+        .center-image-container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center; /* Centers vertically */
+        }
+
+        /* Image styles */
+        .smaller-image {
+            width: 200px;  /* Adjust this value to control the image size */
+            height: auto;  /* Keeps the aspect ratio intact */
+            margin-bottom: 10px;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            .content-section h2 {
+                font-size: 28px;
+            }
+
+            .content-section p {
+                font-size: 16px;
+            }
+
+            .btn {
+                padding: 12px 25px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <a href="https://www.notunprotidin.xyz/" target="_blank">
+        <img src="https://billalhossain1282.github.io/img/NotunProtidinBanner.webp" alt="Notun Protidin Logo" class="fade-in">
+    </a>
+    <h1>Welcome to 
+        <a href="https://www.notunprotidin.xyz" target="_blank"
+           style="font-size: 32px; color: rgb(255, 255, 255); font-weight: 600; 
+                  text-decoration: none; 
+                  transition: background-color 0.3s ease, color 0.3s ease;" 
+           onmouseover="this.style.backgroundColor='yellow'; this.style.color='black';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='rgb(255, 255, 255)';">
+           Notun Protidin
+        </a>
+    </h1>
+<!-- Google Translate Widget -->
+<div class="gtranslate_wrapper" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+</div>
+<script>
+    window.gtranslateSettings = {
+        "default_language": "en",
+        "languages": ["en", "bn", "ar", "hi", "ur", "fr", "it", "es", "de", "pt", "ru", "ja", "zh"],
+        "wrapper_selector": ".gtranslate_wrapper",
+        "switcher_horizontal_position": "inline"
+    };
+</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+
+<!-- Google Translate Widget -->
+<div class="google-translate" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+    <div id="google_translate_element" style="display: inline-block;"></div>
+</div>
+
+</header>
+
+<!-- Main Content Section -->
+<div class="container">
+    <!-- Visit Button (Centered) -->
+    <div class="visit-btn-wrapper">
+        <a href="https://www.notunprotidin.xyz" class="btn fade-in" target="_blank" translate="no" style="text-transform: none;">
+            Visit Notun Protidin
+        </a>
+            </div>
+
+    <!-- Description Section -->
+    <div class="content-section fade-in">
+        <h2 translate="no">About 
+            <a href="https://www.notunprotidin.xyz/" target="_blank" 
+            style="font-size: 32px; color: rgb(236, 49, 49); font-weight: 600; 
+                   text-decoration: none; 
+                   transition: background-color 0.3s ease;" 
+            onmouseover="this.style.backgroundColor='yellow';" 
+            onmouseout="this.style.backgroundColor='transparent';"
+            translate="no">
+            Notun Protidin
+         </a>
+         
+        </h2>
+        <p>
+         Notun Protidin is a leading source of information, covering a wide range of topics including politics, entertainment, business, and lifestyle. Our mission is to provide accurate, timely, and relevant news to our readers. We pride ourselves on presenting stories that matter to you, with a commitment to quality journalism.
+        </p>
+        <p>
+            Our team of experienced journalists and editors work around the clock to deliver the latest updates from Bangladesh and around the world. Whether you're looking for breaking news, in-depth analysis, or simply a good read, Notun Protidin has something for everyone.
+        </p>
+    </div>
+
+    <!-- Billal Hossain's Contributions Section -->
+    <div class="content-section fade-in">
+        <h2>
+            <a href="https://www.notunprotidin.xyz/author/billal-hossain/" target="_blank" 
+               style="font-size: 32px; color: rgb(236, 49, 49); font-weight: 600; 
+                      text-decoration: none; 
+                      transition: background-color 0.3s ease;" 
+               onmouseover="this.style.backgroundColor='yellow';"
+               onmouseout="this.style.backgroundColor='transparent';">
+               Billal Hossain's
+            </a> Contribution
+        </h2>
+
+        <div class="center-image-container">
+            <img src="https://billalhossain1282.github.io/Profile.png" alt="Profile Image" class="smaller-image">
+        </div>
+
+        <p>
+            Billal Hossain, a seasoned professional with a Master's degree in Mathematics, has built a rich and varied career as a banker, economist, and anti-money laundering expert. His journey in the financial sector has seen him in leading roles, notably in AL-Rajhi Banking Inc. in the Kingdom of Saudi Arabia and as Foreign Relations and Correspondent Maintenance Officer of Bank-AL-Bilad.
+        </p>
+        <p>
+            Beyond the confines of traditional finance, Billal has emerged as a prominent writer and commentator, contributing thought-provoking columns and theses to various newspapers and online portals. His expertise spans a wide range of important global issues, including the complexities of economics, political dynamics, the plight of migrant workers, remittances, reserves, and other interrelated aspects.
+        </p>
+        <p>
+            Billal brings a unique analytical perspective to his writing, combining academic rigor with practical insights gained from his banking career. His articles not only demonstrate a deep understanding of complex issues but also provide readers with informed perspectives, bridging the gap between theory and real-world application.
+        </p>
+        <p>
+            Billal Hossain's contributions stand as a testament to his commitment to unraveling the complexities of our interconnected world, providing valuable insights that contribute to a broader and more nuanced understanding of the global economic landscape.
+        </p>
+        <p>
+            For more of Billal Hossain's writings, visit his <a href="https://www.notunprotidin.xyz/author/billal-hossain/" target="_blank" 
+               style="font-size: 20px; color: rgb(236, 49, 49); font-weight: 800; 
+                      text-decoration: none; 
+                      transition: background-color 0.3s ease, color 0.3s ease;" 
+               onmouseover="this.style.backgroundColor='yellow'; this.style.color='black';"
+               onmouseout="this.style.backgroundColor='transparent'; this.style.color='rgb(236, 49, 49)';">
+               author page on Notun Protidin
+            </a>.
+         </p>
+    </div>
+</div>
+
+<!-- Main Content Section -->
+<div class="container">
+    <!-- Visit Button (Centered) -->
+    <div class="visit-btn-wrapper">
+        <a href="https://www.notunprotidin.xyz/about-us/" class="btn fade-in" target="_blank">Visit About Us (Notun Protidin)</a>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2025 Billal Hossain. All Rights Reserved.</p>
+    <p>
+        <a href="https://billalhossain1282.github.io/" target="_blank" 
+           style="font-size: 18px; color: rgb(230, 86, 86); text-decoration: none; 
+                  transition: background-color 0.3s ease, color 0.3s ease;" 
+           onmouseover="this.style.backgroundColor='yellow'; this.style.color='black';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='rgb(236, 49, 49)';">
+            Visit Billal Hossain's Portfolio Page
+        </a>
+    </p></footer>
+
+</body>
+</html>
+

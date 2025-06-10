@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://billalhossain1282.github.io/Author/sitemap.xml
+
+User-agent: *
+Allow: /
