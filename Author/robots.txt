@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://billalhossain1282.github.io/Author/sitemap.xml
+Sitemap: https://billalhossain.pages.dev/Author/sitemap.xml
 
 User-agent: *
 Allow: /
